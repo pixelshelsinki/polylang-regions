@@ -314,4 +314,4 @@ function rfp_alter_links_model( $links_model_class ) {
   return $links_model_class;
 }
 
-add_action('pll_modify_links_model', 'rfp_alter_links_model', 100, 1);
+add_action('pll_links_model', 'rfp_alter_links_model', 100, 1);
